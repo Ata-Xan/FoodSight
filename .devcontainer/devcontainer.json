@@ -1,0 +1,10 @@
+{
+    "name": "OpenCV with xfeatures2d",
+    "image": "opencv-xfeatures2d",
+    "forwardPorts": [8100],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "workspaceFolder": "/app",
+    "mounts": ["source=${localWorkspaceFolder},target=/app,type=bind,consistency=cached"]
+}
